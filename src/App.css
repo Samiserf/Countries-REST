@@ -1,5 +1,48 @@
+.App, .App p,.App h3,.App h1, .App select, .App button{
+  
+  color:hsl(0, 0%, 100%) !important;
+  transition: all 1s ease;
+}
+.App span{
+  color: hsl(0, 0%, 52%);
+  transition: all 1s ease;
+
+}
+.App input, .App button, .App select, .App .shadow {
+  background: hsl(209, 23%, 22%);
+  transition: all 1s ease;
+
+}
+
+
+
+.App-dark p, .App-dark h3, .App-dark select, .App-dark button {
+  
+  color:black !important;
+  transition: all 1s ease;
+
+}
+
+.App-dark{
+  
+  background: hsl(0, 0%, 98%);
+  transition: all 1s ease;
+
+}
+
+.App-dark .grid-item-wrapper , .App-dark .NavBar, .App-dark .shadow {
+  background: white;
+  transition: all 1s ease;
+
+}
+
+
+
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  background: hsl(207, 26%, 17%);
 }
 
 .App-logo {
@@ -34,5 +77,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media(max-width: 800px) {
+  .app{
+    height: 130vh;
   }
 }
